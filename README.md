@@ -301,4 +301,8 @@ dan ini merupakan code full nya
 	}
 
 
-Sejauh ini kita telah menjalankan aplikasi Anda dalam mode debug . Mode debug memperdagangkan kinerja untuk fitur pengembang yang berguna seperti hot reload dan step debugging. Bukan hal yang tidak terduga untuk melihat kinerja yang lambat dan animasi yang tersendat-sendat dalam mode debug. Setelah Anda siap untuk menganalisis kinerja atau merilis aplikasi, Anda dapat menggunakan mode build "profil" atau "rilis" Flutter.
+Sejauh ini kita telah menjalankan aplikasi Anda dalam mode debug . Mode debug memperdagangkan kinerja untuk fitur pengembang yang berguna seperti hot reload dan step debugging. Bukan hal yang tidak terduga untuk melihat kinerja yang lambat dan animasi yang tersendat-sendat dalam mode debug. Setelah Anda siap untuk menganalisis kinerja atau merilis aplikasi, Anda dapat menggunakan mode build "profil" atau "rilis" Flutter.\
+	
+#Write Your First Flutter App, part 2
+lalu pada bagian ke 2 untuk pembuatan aplikasi flutter ada beberapa bagian yang di pelajari seperti penambahan icon perubahan thema dan navigasi tampilan baru
+tapi pada pembelajaran kali ini saya belum mencoba nya...
