@@ -26,24 +26,26 @@ sebagian besar akan mengedit lib/main.dart , tempat kode Dart berada.
 Ganti isi lib/main.dart.
 Hapus semua kode dari lib/main.dart . Ganti dengan kode berikut, yang menampilkan "Hello World" di tengah layar.
 
- void main() => runApp(MyApp());
+ import 'package:flutter/material.dart';
 
-  class MyApp extends StatelessWidget {
-    @override
-    Widget build(BuildContext context) {
-      return MaterialApp(
-        title: 'Welcome to Flutter',
-        home: Scaffold(
-          appBar: AppBar(
-            title: const Text('Welcome to Flutter'),
-          ),
-     body: const Center(
-     child: Text('Hello World'),
-          ),
-        ),
-      );
-    }
-  }
+       void main() => runApp(MyApp());
+
+      class MyApp extends StatelessWidget {
+        @override
+        Widget build(BuildContext context) {
+          return MaterialApp(
+            title: 'Welcome to Flutter',
+            home: Scaffold(
+              appBar: AppBar(
+                title: const Text('Welcome to Flutter'),
+              ),
+              body: const Center(
+                child: Text('Hello World'),
+              ),
+            ),
+          );
+        }
+      }
   
 lalu kita akan menggunakan external paket Pada langkah ini, Anda akan mulai menggunakan paket sumber terbuka bernama english_words , yang berisi beberapa ribu kata bahasa Inggris yang paling sering digunakan ditambah beberapa fungsi utilitas.Anda dapat menemukan english_wordspaket tersebut, serta banyak paket open source lainnya, di pub.dev .
 The pubspec.yamlberkas mengelola aset dan dependensi untuk aplikasi Flutter. Di pubspec.yaml, tambahkan english_words (3.1.5 atau lebih tinggi) ke daftar dependensi:
