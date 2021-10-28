@@ -9,7 +9,7 @@ sebagian besar akan mengedit lib/main.dart , tempat kode Dart berada.
 Ganti isi lib/main.dart.
 Hapus semua kode dari lib/main.dart . Ganti dengan kode berikut, yang menampilkan "Hello World" di tengah layar.
 
-   void main() => runApp(MyApp());
+ void main() => runApp(MyApp());
 
   class MyApp extends StatelessWidget {
     @override
@@ -46,10 +46,10 @@ IDE juga secara otomatis memperbarui kelas status ke extend State<RandomWords>, 
 
   membuat statefull widget
 
-class MyApp extends StatelessWidget {
+	class MyApp extends StatelessWidget {
 	    @override
 	    Widget build(BuildContext context) {
-      final wordPair = WordPair.random();
+      	      final wordPair = WordPair.random();
 	      return MaterialApp(
 	        title: 'Welcome to Flutter',
 	        home: Scaffold(
