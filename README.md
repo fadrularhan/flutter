@@ -37,8 +37,8 @@ Hapus semua kode dari lib/main.dart . Ganti dengan kode berikut, yang menampilka
           appBar: AppBar(
             title: const Text('Welcome to Flutter'),
           ),
-          body: const Center(
-            child: Text('Hello World'),
+     body: const Center(
+     child: Text('Hello World'),
           ),
         ),
       );
